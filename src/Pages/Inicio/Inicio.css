@@ -1,0 +1,42 @@
+.Inc{
+    background-color: #F2F2F2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 100px;
+    gap: 20px;
+}
+.nombre{
+    font-size: 50px;
+    font-weight: bold;
+    color: #474bff;
+    transform: translate(50px,20px);
+    text-align: center;
+    width: 900px;
+}
+.texto-informativo {
+    transform: translate(100px,20px);
+    text-align: center;
+    width: 900px;
+
+}
+.tra {
+    transform: translateX(100px);
+}.spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-left: 400px;
+    background: conic-gradient(#0000 10%,#474bff);
+    -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
+    animation: spinner-zp9dbg 1s infinite linear;
+ }
+ 
+ @keyframes spinner-zp9dbg {
+    to {
+       transform: rotate(1turn);
+    }
+ }

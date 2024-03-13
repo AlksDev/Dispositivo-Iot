@@ -1,0 +1,76 @@
+.Dispositivos-inicio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+  margin-left: 400px;
+}
+
+.controles{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.Botones-manejo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  border-radius: 8px;
+  background-color: #F7F7F7;
+  margin-left: 80px;
+}
+.dispositivo{
+  
+}
+.estados-dispositivos{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  
+  gap: 100px;
+}
+.status-connected {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 80px;
+}
+
+.status-error {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 80px;
+}
+
+.filter-button {
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px; /* Ajusta el valor de border-radius según tus preferencias para hacer los botones más o menos redondos */
+    cursor: pointer;
+    width: 100%;
+
+  }
+  
+  /* Estilos específicos para cada botón si es necesario */
+  .filter-button.ON {
+    background-color: green;
+    color: white;
+  }
+  
+  .filter-button.OFF {
+    background-color: red;
+    color: white;
+  }
+  
+  .filter-button.BLINK {
+    background-color: yellow;
+    color: black;
+  }
+  

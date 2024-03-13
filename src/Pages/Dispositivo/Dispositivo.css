@@ -1,0 +1,29 @@
+.Dispositivo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;   
+     transform: translateX(480px);
+
+    }
+.carga {
+    transform: translate(350px, 300px);
+
+}
+.vista-dispositivo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.diagrama {
+    width: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-180px, 50px);
+}
