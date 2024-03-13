@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
 
-const [conectado, setConectado] = useState(trues); // Estado para saber si el usuario está conectado
+const [conectado, setConectado] = useState(true); // Estado para saber si el usuario está conectado
   const navigate = useNavigate(); // Obtiene la función de navegación
 
   const acceder = (estado) => {

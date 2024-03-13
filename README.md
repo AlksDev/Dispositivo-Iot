@@ -8,7 +8,7 @@ npm install
 npm install bootstrap
 npm instal react-router-dom
 npm install react-icons --save
-npm install axios
+npm ins tall axios
 npm install chart.js
 npm install react-datepicker
 
